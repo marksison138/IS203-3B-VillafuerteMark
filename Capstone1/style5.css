@@ -1,0 +1,119 @@
+/* Styles for the dropdown */
+.user-info {
+    position: relative;
+    display: inline-block;
+  }
+
+  .user-info img {
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #333;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 6px;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+
+  .user-info:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-content::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #f9f9f9 transparent;
+  }
+
+  .form-class {
+    margin-top: 30px;
+  }
+
+  .form {
+    background-color: #444; /* Background color for the form */
+    padding: 20px; /* Padding around the form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+  }
+
+  .form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff; /* Heading color */
+  }
+
+  .form-group {
+    margin-bottom: 15px; /* Space between form groups */
+  }
+
+  label {
+    display: block; /* Make labels block-level */
+    margin-bottom: 5px; /* Space between label and input */
+    color: #fff; /* Label color */
+  }
+
+  input[type="text"],
+  input[type="tel"],
+  input[type="date"],
+  select,
+  textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside inputs */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #555; /* Background color for inputs */
+    color: #fff; /* Text color */
+    font-size: 16px; /* Font size */
+  }
+
+  input[type="text"]:focus,
+  input[type="tel"]:focus,
+  input[type="date"]:focus,
+  select:focus,
+  textarea:focus {
+    outline: none; /* Remove outline */
+    background-color: #666; /* Darker background on focus */
+  }
+
+  .submit-button {
+    background-color: #007bff; /* Button color */
+    color: #fff; /* Button text color */
+    padding: 10px; /* Padding inside button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    width: 100%; /* Full width */
+    font-size: 18px; /* Font size */
+  }
+
+  .submit-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+
+  .logo img {
+    width: 70px; 
+    height: 70px; 
+    object-fit: cover; 
+    border-radius: 50%; 
+  }
+ 
